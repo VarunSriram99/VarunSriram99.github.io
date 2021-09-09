@@ -1,0 +1,89 @@
+body{
+    font-family: Helvetica;
+    font-size: 25px;
+}
+p,a{
+    color:#3C3C3C;
+}
+@media only screen and (min-width: 640px) {
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    nav h1 {
+      padding-left: 5rem;
+    }
+    .links{
+        display:flex;
+        margin-top: 1.5rem;
+        margin-left: 0.5rem;
+    }
+    .links a{
+        padding: 0.25rem 1.25rem;
+        font-weight:500;
+        font-size: small;
+    }
+    .container{
+        display: flex;
+    }
+    .login{
+        margin-top: 1.25rem;
+        margin-right: 5rem;
+    }
+    .login a,button{
+        margin: 0 0.5rem;
+        font-weight: 500;
+    }
+    .login button{
+        border:none;
+        background-color: #8EE5D1;
+        padding: 0.5rem 1.5rem;
+        border-radius:  20px;
+    }
+    .intro{
+        display: flex;
+        margin-top: 4rem;
+        flex-direction:row;
+        text-align: center;
+        align-items: center;
+    }
+    .image img{
+        width:75%;
+    }
+    .details{
+        margin-left: 5rem;
+        text-align: left;
+    }
+    .details h1{
+        font-size: 2.75rem;
+    }
+    .details button{
+        border:none;
+        background-color: #8EE5D1;
+        padding: 0.5rem 1.5rem;
+        border-radius:  20px;
+    }
+    .demo{
+        text-align: center;
+        background-color: #F4F7FA;
+        padding: 3rem 10rem;
+        margin-top: 5rem;
+    }
+    .demo button{
+        border:none;
+        background-color: #8EE5D1;
+        padding: 0.75rem 1.5rem;
+        border-radius:  10px 10px 10px 10px;
+        padding: 0.75rem 1.5rem;
+        margin-top: 0;
+        font-weight:bold;
+    }
+    .demo input{
+        padding: 0.75rem;
+        width:25rem;
+        border-radius:  10px 10px 10px 10px;
+        border-color: #818080;
+        border-width: thin;
+    }
+  }
