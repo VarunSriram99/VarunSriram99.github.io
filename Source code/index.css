@@ -13,6 +13,7 @@ p,a{
     }
     nav h1 {
       padding-left: 5rem;
+      margin-right: 2rem;
     }
     .links{
         display:flex;
@@ -21,8 +22,9 @@ p,a{
     }
     .links a{
         padding: 0.25rem 1.25rem;
-        font-weight:500;
-        font-size: small;
+        font-weight:600;
+        font-size: medium;
+        margin-top: 1rem;
     }
     .container{
         display: flex;
@@ -40,6 +42,8 @@ p,a{
         background-color: #8EE5D1;
         padding: 0.5rem 1.5rem;
         border-radius:  20px;
+        font-size: large;
+        font-weight: bold;
     }
     .intro{
         display: flex;
@@ -85,5 +89,51 @@ p,a{
         border-radius:  10px 10px 10px 10px;
         border-color: #818080;
         border-width: thin;
+    }
+    .statement{
+        text-align: center;
+        max-width: 52rem;
+    }
+    .card{
+        width: 20rem;
+        padding:2rem 3rem;
+        background-color: #F4F7FA;
+        max-height: 25rem;
+        margin: 0 1rem;
+        border-radius:  20px 20px 20px 20px;
+    }
+    .card h1{
+        color:#8EE5D1;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        background-color: #F4F7FA;
+        margin-top: 10rem;
+    }
+    .aboutsorty{
+        max-width: 40rem;
+        text-align: left;
+        margin-left: 10rem;
+    }
+    footer h1{
+        font-size: 2.5rem;
+    }
+    footer p{
+        font-size: 1.3rem;
+    }
+    .contactus{
+        text-align: right;
+        margin-right: 10rem;
+
+    }
+    .contactus span{
+        font-weight: bold;
     }
   }
